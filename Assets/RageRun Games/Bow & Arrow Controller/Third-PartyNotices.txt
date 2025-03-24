@@ -1,0 +1,2 @@
+Asset uses Kyle Robot from Unity Technologies : https://assetstore.unity.com/packages/3d/characters/robots/robot-kyle-urp-4696
+Asset uses PixPal Palette Texture from Imphenzia under CC0 License : https://imphenzia.com/assets
