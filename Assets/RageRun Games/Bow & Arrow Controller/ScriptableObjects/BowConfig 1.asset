@@ -16,17 +16,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   arrowPrefab: {fileID: 5203078424035267085, guid: 2d440be6ac6daab48837240fcc20050a, type: 3}
+  bowScale: 0.7
   useEmission: 0
-  bowEmissionColor: {r: 3.3243575, g: 0.5195444, b: 0, a: 1}
-  secondaryColor: {r: 0.05724919, g: 1, b: 0, a: 1}
+  bowEmissionColor: {r: 4.438278, g: 4.438278, b: 4.438278, a: 1}
+  secondaryColor: {r: 1, g: 1, b: 1, a: 1}
   lowerBowInitialRotationX: 91.64801
   upperBowInitialRotationX: -90
   arrowSpawnOffset: {x: 0, y: 0.06, z: 0.305}
   arrowSpawnRotation: {x: -6, y: 0, z: 0}
   arrowInitialLocalPositionZ: -0.42
   bowSpringConstant: 5000
-  bowDampingFactor: 30
-  useGravity: 0
+  bowDampingFactor: 50
+  useGravity: 1
   bowIdlePosition: {x: 0, y: 0, z: -0.1}
   bowIdleRotationZ: 330
   bowArrowDrawPosition: {x: 0, y: 0, z: 0.05}
@@ -43,9 +44,10 @@ MonoBehaviour:
   stringFinalYPosition: 0.55
   stringFinalZPosition: -0.145
   stringDisplacementSmoothTime: 0.2
-  arrowLaunchSpeed: 50
+  arrowLaunchSpeed: 25
   numberOfArrows: 1
   angleBetweenArrows: 0
+  offsetMultiplier: 1
   arrowPattern: 0
   shootingType: 0
   shootingDelay: 0.05
