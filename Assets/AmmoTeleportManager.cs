@@ -9,6 +9,7 @@ public class AmmoTeleportManager : MonoBehaviour
     public GameObject soldierCam;
     public GameObject soldierController;
     public GameObject ammoBoxController;
+ 
 
     private void Awake()
     {
@@ -17,8 +18,8 @@ public class AmmoTeleportManager : MonoBehaviour
 
     public void TeleportAmmoBoxToTarget(Vector3 targetPosition)
     {
-        // 传送弹药箱
-        Vector3 safeOffset = Vector3.up * 1f; // 你可以根据弹药箱大小调整这个偏移
+        // 传送弹药箱，加入一个安全偏移，防止穿模
+        Vector3 safeOffset = Vector3.up * 1f;
         ammoBox.transform.position = targetPosition + safeOffset;
 
         // 切换相机和控制权
@@ -27,5 +28,6 @@ public class AmmoTeleportManager : MonoBehaviour
 
         soldierController.SetActive(false);
         ammoBoxController.SetActive(true);
+
     }
 }
