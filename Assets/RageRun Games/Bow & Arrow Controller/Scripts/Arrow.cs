@@ -62,6 +62,9 @@ namespace RageRunGames.BowArrowController
                 rb.isKinematic = true;
                 transform.parent = other.transform;
                 isCollided = true;
+
+                // 🔥 触发传送弹药箱
+                AmmoTeleportManager.Instance.TeleportAmmoBoxToTarget(other.transform.position);
             }
         }
 
