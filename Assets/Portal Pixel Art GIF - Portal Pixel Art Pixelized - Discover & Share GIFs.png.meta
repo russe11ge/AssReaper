@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: 5f79381a089fa49e698ff5f73f297a13
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share
+        GIFs_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ecb5604144c4ae4852f2e516ef9787
+      internalID: 923368245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share
+        GIFs_1
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31882b55690414051a774cb00ed9f504
+      internalID: 980552252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share
+        GIFs_2
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c88952849b824f20b03c018157148ac
+      internalID: -1208067800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share
+        GIFs_3
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0816ac72107c9405aa437df1e209a3b5
+      internalID: 1101572821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share
+        GIFs_4
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e397390f5493f4e548f81d3c3072208b
+      internalID: 987431332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share
+        GIFs_5
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c6b3ee40dff4ebb8fc5c73a9474864
+      internalID: -1477249656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share
+        GIFs_6
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4858c516a0b4f1ca29b61c74045e05
+      internalID: -1906437695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share
+        GIFs_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769230ec95d054319a4022f2d23113a2
+      internalID: -1400639206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share
+        GIFs_8
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056325868feeb4c25a94e3bdd5036827
+      internalID: 1109365588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share
+        GIFs_9
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc1ffc40e88040979365cd5e5324edf
+      internalID: 164367680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share
+        GIFs_10
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfeb0df8c1a4645aba7bed6205115e9a
+      internalID: -1330190545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share
+        GIFs_11
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105bfa3319bb941ba95c0ceccec747a2
+      internalID: -1062673774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share
+        GIFs_12
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca59fba2dbb4d456bba12178e9604259
+      internalID: 1998414880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share
+        GIFs_13
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b4baa3cbeb343a7ad1b51e92f76d17
+      internalID: -488254947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9d7059d73532a41beab08dbd13b4f35b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share GIFs_0: 923368245
+      Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share GIFs_1: 980552252
+      Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share GIFs_10: -1330190545
+      Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share GIFs_11: -1062673774
+      Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share GIFs_12: 1998414880
+      Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share GIFs_13: -488254947
+      Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share GIFs_2: -1208067800
+      Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share GIFs_3: 1101572821
+      Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share GIFs_4: 987431332
+      Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share GIFs_5: -1477249656
+      Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share GIFs_6: -1906437695
+      Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share GIFs_7: -1400639206
+      Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share GIFs_8: 1109365588
+      Portal Pixel Art GIF - Portal Pixel Art Pixelized - Discover & Share GIFs_9: 164367680
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

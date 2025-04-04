@@ -9,6 +9,7 @@ TagManager:
   - TdLevelManager
   - Animation
   - NPC
+  - Train
   layers:
   - Default
   - TransparentFX
