@@ -11,21 +11,16 @@ namespace RageRunGames.BowArrowController
 
         [SerializeField] private float lifeTime = 3f;
 
-
         private Rigidbody rb;
-
         private float timer;
         private bool isShot;
         private bool isCollided;
-
         BowConfig bowConfig;
-
         private Collider collider;
 
         private void Awake()
         {
             collider = GetComponent<Collider>();
-            
             rb = GetComponent<Rigidbody>();
             timer = lifeTime;
         }
@@ -65,27 +60,41 @@ namespace RageRunGames.BowArrowController
                 transform.parent = other.transform;
                 isCollided = true;
 
-                AmmoTeleportManager.Instance.TeleportAmmoBoxToTarget(other.transform.position);
+                // ✅ 判断命中的 Target 是否挂在 Fan 上
+                bool shouldFreeze = false;
+                Transform current = other.transform;
+                while (current != null)
+                {
+                    if (current.CompareTag("Fan"))
+                    {
+                        shouldFreeze = true;
+                        break;
+                    }
+                    current = current.parent;
+                }
+
+                // ✅ 根据是否在风扇上，决定是否 freeze
+                AmmoTeleportManager.Instance.TeleportAmmoBoxToTarget(other.transform.position, shouldFreeze);
             }
 
-            Transform current = other.transform;
+            // ✅ 播放动画部分逻辑保持原样
+            Transform animCheck = other.transform;
             bool foundAnimationTag = false;
             bool foundAnimationComponent = false;
 
-            while (current != null)
+            while (animCheck != null)
             {
-                Debug.Log("🔍 正在检查: " + current.name);
+                Debug.Log("🔍 正在检查: " + animCheck.name);
 
-                if (current.CompareTag("Animation"))
+                if (animCheck.CompareTag("Animation"))
                 {
                     foundAnimationTag = true;
-                    Debug.Log("✅ 找到 tag 为 Animation 的对象: " + current.name);
+                    Debug.Log("✅ 找到 tag 为 Animation 的对象: " + animCheck.name);
 
-                    // ✅ 往当前节点及其父级继续找 Animation 组件
-                    Transform searchForAnimation = current;
-                    while (searchForAnimation != null)
+                    Transform search = animCheck;
+                    while (search != null)
                     {
-                        Animation anim = searchForAnimation.GetComponent<Animation>();
+                        Animation anim = search.GetComponent<Animation>();
                         if (anim != null)
                         {
                             foundAnimationComponent = true;
@@ -93,15 +102,15 @@ namespace RageRunGames.BowArrowController
                             if (!anim.isPlaying)
                             {
                                 anim.Play();
-                                Debug.Log("🚂 播放动画成功: " + searchForAnimation.name);
+                                Debug.Log("🚂 播放动画成功: " + search.name);
                             }
                             else
                             {
-                                Debug.Log("⚠️ 动画已在播放中: " + searchForAnimation.name);
+                                Debug.Log("⚠️ 动画已在播放中: " + search.name);
                             }
                             break;
                         }
-                        searchForAnimation = searchForAnimation.parent;
+                        search = search.parent;
                     }
 
                     if (!foundAnimationComponent)
@@ -109,10 +118,10 @@ namespace RageRunGames.BowArrowController
                         Debug.LogWarning("⚠️ 找到 tag，但在父级中没发现 Animation 组件！");
                     }
 
-                    break; // 找到 tag 就不继续往上找了
+                    break;
                 }
 
-                current = current.parent;
+                animCheck = animCheck.parent;
             }
 
             if (!foundAnimationTag)
@@ -120,7 +129,6 @@ namespace RageRunGames.BowArrowController
                 Debug.LogWarning("❌ 没找到任何 tag 为 Animation 的对象！");
             }
         }
-    
 
         public void Shoot(BowConfig bowConfig, Vector3 direction, float force)
         {
@@ -136,7 +144,7 @@ namespace RageRunGames.BowArrowController
         {
             trailRenderer.material.EnableKeyword("_EMISSION");
             trailRenderer.material.SetColor("_EmissionColor", bowConfigEmissionColor);
-            
+
             arrowMeshRenderer.materials[arrowMaterialIndex].EnableKeyword("_EMISSION");
             arrowMeshRenderer.materials[arrowMaterialIndex].SetColor("_EmissionColor", bowConfigEmissionColor);
         }
@@ -145,7 +153,7 @@ namespace RageRunGames.BowArrowController
         {
             trailRenderer.sharedMaterial.DisableKeyword("_EMISSION");
             trailRenderer.material.SetColor("_Color", bowConfigColor);
-            
+
             arrowMeshRenderer.materials[arrowMaterialIndex].DisableKeyword("_EMISSION");
             arrowMeshRenderer.materials[arrowMaterialIndex].SetColor("_Color", bowConfigColor);
         }

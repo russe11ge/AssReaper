@@ -10,6 +10,7 @@ TagManager:
   - Animation
   - NPC
   - Train
+  - Fan
   layers:
   - Default
   - TransparentFX
