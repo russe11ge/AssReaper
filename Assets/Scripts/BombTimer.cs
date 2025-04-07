@@ -8,24 +8,34 @@ public class BombTimerUI : MonoBehaviour
     public float countdownTime = 5f;
     public Transform respawnPoint;
     public TextMeshProUGUI countdownText;
-    public Image blackScreen;  // 拖入 BlackScreen Image
+    public Image blackScreen;
 
     private Coroutine countdownRoutine;
     private bool isCounting = false;
 
     void OnTriggerEnter(Collider other)
     {
+        // 启动倒计时
         if (other.CompareTag("TriggerZone") && !isCounting)
         {
             countdownRoutine = StartCoroutine(StartCountdown());
         }
 
-        if (other.CompareTag("CancelZone") && isCounting)
+        // 取消倒计时（CancelZone 或 Ground）
+        if ((other.CompareTag("CancelZone") || other.CompareTag("Ground_Level1")) && isCounting)
+        {
+            ForceCancelCountdown();
+        }
+    }
+
+    public void ForceCancelCountdown()
+    {
+        if (isCounting && countdownRoutine != null)
         {
             StopCoroutine(countdownRoutine);
             countdownText.text = "";
             isCounting = false;
-            Debug.Log("✅ 解除成功，倒计时取消");
+            Debug.Log("❌ 倒计时因牺牲被强制终止");
         }
     }
 
@@ -36,31 +46,20 @@ public class BombTimerUI : MonoBehaviour
 
         while (timer > 0f)
         {
-            countdownText.text = "You'll explode in:" + Mathf.Ceil(timer).ToString() + " sec";
+            countdownText.text = "You'll explode in: " + Mathf.Ceil(timer).ToString() + " sec";
             timer -= Time.deltaTime;
             yield return null;
         }
 
-        // 显示 BOOM 文字
         countdownText.text = "BOOOOOOOM! YOU SACRIFICED!";
-
-        // 开始渐变黑幕
-        yield return StartCoroutine(FadeToBlack(3f)); // 3秒变黑
-
-        // 等待黑屏1秒
+        yield return StartCoroutine(FadeToBlack(3f));
         yield return new WaitForSeconds(0.3f);
 
-        // 重生
         Respawn();
-
-        // 保持 BOOM 显示 4 秒
         yield return new WaitForSeconds(1f);
 
-        // 清除文字
         countdownText.text = "";
-
-        // 还原黑幕透明
-        yield return StartCoroutine(FadeToClear(1f)); // 1秒淡出黑幕
+        yield return StartCoroutine(FadeToClear(1f));
     }
 
     IEnumerator FadeToBlack(float duration)
@@ -76,7 +75,7 @@ public class BombTimerUI : MonoBehaviour
             yield return null;
         }
 
-        blackScreen.color = new Color(c.r, c.g, c.b, 1f); // 全黑
+        blackScreen.color = new Color(c.r, c.g, c.b, 1f);
     }
 
     IEnumerator FadeToClear(float duration)
@@ -92,7 +91,7 @@ public class BombTimerUI : MonoBehaviour
             yield return null;
         }
 
-        blackScreen.color = new Color(c.r, c.g, c.b, 0f); // 全透明
+        blackScreen.color = new Color(c.r, c.g, c.b, 0f);
     }
 
     void Respawn()

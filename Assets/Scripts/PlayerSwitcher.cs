@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PlayerSwitcher : MonoBehaviour
 {
-    public static PlayerSwitcher Instance; // 当前控制的 PlayerSwitcher
+    public static PlayerSwitcher Instance;
 
     public GameObject ammoBox;
     public GameObject soldier;
@@ -19,6 +19,11 @@ public class PlayerSwitcher : MonoBehaviour
     public GameObject interactUI;
 
     private bool isControllingSoldier = false;
+
+    void Awake()
+    {
+        Instance = this;
+    }
 
     void Update()
     {
@@ -46,7 +51,7 @@ public class PlayerSwitcher : MonoBehaviour
     void SwitchToSoldier()
     {
         isControllingSoldier = true;
-        PlayerSwitcher.Instance = this; // 记录当前控制的 soldier
+        PlayerSwitcher.Instance = this;
 
         if (interactUI != null)
             interactUI.SetActive(false);
@@ -69,5 +74,19 @@ public class PlayerSwitcher : MonoBehaviour
 
         ammoBoxController.SetActive(true);
         ammoBoxCam.SetActive(true);
+    }
+
+    public void ResetSoldier()
+    {
+        isControllingSoldier = false;
+
+        if (soldierClone != null)
+            soldierClone.SetActive(true);
+
+        if (soldierController != null)
+            soldierController.SetActive(false);
+
+        if (soldierCam != null)
+            soldierCam.SetActive(false);
     }
 }

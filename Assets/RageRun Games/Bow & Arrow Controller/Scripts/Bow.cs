@@ -5,33 +5,31 @@ using RageRunGames.BowArrowController.RageRunGames.BowArrowController;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-//todo: rename variables
-//todo: fix multiple arrow shots by raycasting center and calculating offsets between
-
 namespace RageRunGames.BowArrowController
 {
     public class Bow : MonoBehaviour
     {
-        [Header("Bow Configuration")] [SerializeField]
-        private BowConfig bowConfig;
+        [Header("Bow Configuration")]
+        [SerializeField] private BowConfig bowConfig;
 
         [SerializeField] private Transform lowerBow;
         [SerializeField] private Transform upperBow;
         [SerializeField] private Transform arrowSpawnPoint;
 
-       
-        [Header("Visual Handling")] [FormerlySerializedAs("bowMeshRenderer")] [SerializeField]
-        private SkinnedMeshRenderer bowRenderer;
-
+        [Header("Visual Handling")]
+        [SerializeField] private SkinnedMeshRenderer bowRenderer;
         [SerializeField] private LineRenderer lineRenderer;
         [SerializeField] private int bowEmissionMaterialIndex;
-        
-        
-        [Header("IK Handling")] [SerializeField]
-        private Transform rightHandTarget;
 
+        [Header("IK Handling")]
+        [SerializeField] private Transform rightHandTarget;
         [SerializeField] private Transform leftHandTarget;
         [SerializeField] private Transform ikHandTargetHolder;
+
+        [Header("Sound Effects")]
+        [SerializeField] private AudioClip drawSound;
+        [SerializeField] private AudioClip shootSound;
+        private AudioSource audioSource;
 
         private float currentLowerBowCompression;
         private float initialLowerBowLocalEularAnglesX;
@@ -39,7 +37,6 @@ namespace RageRunGames.BowArrowController
         private float currentUpperBowCompression;
 
         private float initialHandTargetPosZ;
-
         private float stringDisplacement;
         private float stringVelocity;
         private bool isStringReleased = false;
@@ -55,7 +52,7 @@ namespace RageRunGames.BowArrowController
         public bool IsShooting { get; private set; }
 
         private float refVel;
-        
+
         private void Start()
         {
             lineRenderer = GetComponentInChildren<LineRenderer>();
@@ -64,6 +61,14 @@ namespace RageRunGames.BowArrowController
 
             _arrowSpawner = new ArrowSpawner(bowConfig, arrowSpawnPoint);
             _arrowShooter = new ArrowShooter(bowConfig, Camera.main);
+
+            // 初始化 AudioSource
+            audioSource = GetComponent<AudioSource>();
+            if (audioSource == null)
+            {
+                audioSource = gameObject.AddComponent<AudioSource>();
+                audioSource.playOnAwake = false;
+            }
         }
 
         private void OnEnable()
@@ -74,17 +79,15 @@ namespace RageRunGames.BowArrowController
         private void InitializeBowSettings()
         {
             transform.localScale = Vector3.one * bowConfig.bowScale;
-            
+
             if (ikHandTargetHolder == null)
             {
                 ikHandTargetHolder = transform.parent.Find("IK Target Holder");
                 leftHandTarget = ikHandTargetHolder.Find("Left Hand IK_target");
                 rightHandTarget = ikHandTargetHolder.Find("Right Hand IK_target");
             }
-            
-            
+
             ikHandTargetHolder.parent = transform;
-            
             ikHandTargetHolder.localPosition = Vector3.zero;
             ikHandTargetHolder.localRotation = Quaternion.identity;
 
@@ -101,14 +104,12 @@ namespace RageRunGames.BowArrowController
 
             initialBowLocalEularAngles = transform.localEulerAngles;
 
-            rightHandTarget.localPosition =
-                new Vector3(rightHandTarget.localPosition.x, rightHandTarget.localPosition.y, -0.7f);
+            rightHandTarget.localPosition = new Vector3(rightHandTarget.localPosition.x, rightHandTarget.localPosition.y, -0.7f);
 
             if (bowConfig.useEmission)
             {
                 bowRenderer.materials[bowEmissionMaterialIndex].EnableKeyword("_EMISSION");
                 bowRenderer.materials[bowEmissionMaterialIndex].SetColor("_EmissionColor", bowConfig.bowEmissionColor);
-
                 lineRenderer.material.EnableKeyword("_EMISSION");
                 lineRenderer.material.SetColor("_EmissionColor", bowConfig.bowEmissionColor);
             }
@@ -116,7 +117,6 @@ namespace RageRunGames.BowArrowController
             {
                 bowRenderer.materials[bowEmissionMaterialIndex].DisableKeyword("_EMISSION");
                 bowRenderer.materials[bowEmissionMaterialIndex].SetColor("_Color", bowConfig.secondaryColor);
-
                 lineRenderer.material.DisableKeyword("_EMISSION");
                 lineRenderer.material.SetColor("_Color", bowConfig.secondaryColor);
             }
@@ -135,6 +135,9 @@ namespace RageRunGames.BowArrowController
                 IsExecuting = true;
                 DestroyArrows();
                 arrows = _arrowSpawner.SpawnArrows();
+
+                // 播放拉弓音效
+                if (drawSound != null) audioSource.PlayOneShot(drawSound);
 
                 if (!bowConfig.ignoreBowLimbBend)
                     StartCoroutine(UpdateBowCompression());
@@ -170,6 +173,10 @@ namespace RageRunGames.BowArrowController
             {
                 IsShooting = true;
                 isStringReleased = true;
+
+                // 播放射箭音效
+                if (shootSound != null) audioSource.PlayOneShot(shootSound);
+
                 ShootArrows();
 
                 if (!bowConfig.ignoreBowLimbBend)
@@ -197,7 +204,6 @@ namespace RageRunGames.BowArrowController
             upperBow.localEulerAngles = upperBowRotation;
         }
 
-
         private void DestroyArrows()
         {
             if (arrows.Count == 0) return;
@@ -220,8 +226,7 @@ namespace RageRunGames.BowArrowController
         private void UpdateBowTilt(float t)
         {
             float tiltZ = Mathf.Lerp(bowConfig.bowIdleRotationZ, bowConfig.bowDrawRotationZ, t);
-            transform.localRotation =
-                Quaternion.Euler(transform.localEulerAngles.x, transform.localEulerAngles.y, tiltZ);
+            transform.localRotation = Quaternion.Euler(transform.localEulerAngles.x, transform.localEulerAngles.y, tiltZ);
         }
 
         private void ResetBowTilt()
@@ -287,7 +292,6 @@ namespace RageRunGames.BowArrowController
             }
         }
 
-
         private void UpdateArrowsPosition()
         {
             for (int i = 0; i < arrows.Count; i++)
@@ -335,14 +339,12 @@ namespace RageRunGames.BowArrowController
             lineRenderer.SetPosition(0, lerpPosLineRenderer0);
         }
 
-
         private IEnumerator BowRecoilEffectRoutine()
         {
             if (bowConfig.bowRecoilDuration <= 0) yield break;
 
             Vector3 originalRotation = transform.localEulerAngles;
             Vector3 originalPosition = transform.localPosition;
-
             Vector3 recoilRotation = bowConfig.bowRecoilRotation;
 
             float elapsed = 0f;
@@ -350,7 +352,6 @@ namespace RageRunGames.BowArrowController
             while (elapsed < bowConfig.bowRecoilDuration)
             {
                 elapsed += Time.deltaTime;
-
                 float interpolation = (-Mathf.Pow(elapsed, 2) + elapsed * 4f);
                 transform.localPosition = Vector3.Lerp(originalPosition, bowConfig.bowRecoilPosition, interpolation);
                 transform.localEulerAngles = Vector3.Lerp(originalRotation, recoilRotation, interpolation);
@@ -369,7 +370,6 @@ namespace RageRunGames.BowArrowController
             }
         }
 
-
         private void ShootArrows()
         {
             StartCoroutine(ShootArrowsRoutine());
@@ -379,8 +379,8 @@ namespace RageRunGames.BowArrowController
         {
             float pullStrength = Mathf.Clamp01(stringDisplacement / bowConfig.maxStringPullDistance);
             float arrowShootSpeed = pullStrength * bowConfig.arrowLaunchSpeed;
-            
-            yield return StartCoroutine(_arrowShooter.ShootArrowsRoutine(arrows,arrowShootSpeed));
+
+            yield return StartCoroutine(_arrowShooter.ShootArrowsRoutine(arrows, arrowShootSpeed));
 
             IsShooting = false;
             arrows.Clear();

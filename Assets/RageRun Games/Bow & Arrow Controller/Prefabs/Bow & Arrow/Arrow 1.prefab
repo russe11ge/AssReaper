@@ -247,7 +247,7 @@ MonoBehaviour:
   trailRenderer: {fileID: 7375956487801550851}
   arrowMeshRenderer: {fileID: 4398146292192919088}
   arrowMaterialIndex: 0
-  lifeTime: 2
+  lifeTime: 1
 --- !u!1 &7237960871445526989
 GameObject:
   m_ObjectHideFlags: 0

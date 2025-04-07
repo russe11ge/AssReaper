@@ -6,21 +6,52 @@ using TMPro;
 public class AmmoBoxRespawnUI : MonoBehaviour
 {
     [Header("黑幕 & UI")]
-    public Image blackScreen;             // 拖入黑幕 UI Image
-    public TextMeshProUGUI boomText;      // 拖入显示 BOOM 的文本
+    public Image blackScreen;
+    public TextMeshProUGUI boomText;
 
     [Header("重生设置")]
-    public Transform respawnPoint;        // 拖入重生位置
-    public float fadeTime = 1.5f;         // 黑幕渐变时间
-    public float boomDuration = 4f;       // BOOM 显示时间
-    public float pauseTime = 0.5f;        // 黑幕全黑时等待时间
+    public Transform respawnPoint_Level1;
+    public Transform respawnPoint_Level2;
 
+    public float fadeTime = 1.5f;
+    public float boomDuration = 4f;
+    public float pauseTime = 0.5f;
+
+    [Header("音效")]
+    public AudioClip deathSound;
+
+    private Transform currentRespawnPoint;
     private bool isRespawning = false;
 
     void OnCollisionEnter(Collision collision)
     {
-        if (!isRespawning && collision.collider.CompareTag("Ground"))
+        if (isRespawning) return;
+
+        string groundTag = collision.collider.tag;
+
+        // 根据不同地面 Tag 选择重生点
+        switch (groundTag)
         {
+            case "Ground_Level1":
+                currentRespawnPoint = respawnPoint_Level1;
+                break;
+            case "Ground_Level2":
+                currentRespawnPoint = respawnPoint_Level2;
+                break;
+            default:
+                Debug.LogWarning("❌ 未识别的地面标签：" + groundTag);
+                return;
+        }
+
+        if (currentRespawnPoint != null)
+        {
+            // ✅ 强制终止炸弹倒计时（如果正在进行）
+            BombTimerUI bombUI = FindObjectOfType<BombTimerUI>();
+            if (bombUI != null)
+            {
+                bombUI.ForceCancelCountdown();
+            }
+
             StartCoroutine(RespawnSequence());
         }
     }
@@ -29,17 +60,16 @@ public class AmmoBoxRespawnUI : MonoBehaviour
     {
         isRespawning = true;
 
-        // 开始黑屏
+        // 播放死亡音效
+        if (deathSound != null)
+            AudioSource.PlayClipAtPoint(deathSound, transform.position);
+
         yield return StartCoroutine(FadeToBlack(fadeTime));
 
-        // 显示 BOOM
         boomText.text = "YOU SACRIFICED!";
-
-        // 暂停一会（黑屏停留）
         yield return new WaitForSeconds(pauseTime);
 
-        // 执行重生
-        transform.position = respawnPoint.position;
+        transform.position = currentRespawnPoint.position;
         Rigidbody rb = GetComponent<Rigidbody>();
         if (rb != null)
         {
@@ -47,10 +77,14 @@ public class AmmoBoxRespawnUI : MonoBehaviour
             rb.angularVelocity = Vector3.zero;
         }
 
-        // 保持 BOOM 显示
+        // 重置士兵系统状态
+        if (PlayerSwitcher.Instance != null)
+        {
+            PlayerSwitcher.Instance.ResetSoldier();
+        }
+
         yield return new WaitForSeconds(boomDuration);
 
-        // 清除 BOOM + 淡出黑幕
         boomText.text = "";
         yield return StartCoroutine(FadeToClear(fadeTime));
 
@@ -61,7 +95,6 @@ public class AmmoBoxRespawnUI : MonoBehaviour
     {
         float timer = 0f;
         Color c = blackScreen.color;
-
         while (timer < duration)
         {
             float alpha = Mathf.Lerp(0f, 1f, timer / duration);
@@ -69,7 +102,6 @@ public class AmmoBoxRespawnUI : MonoBehaviour
             timer += Time.deltaTime;
             yield return null;
         }
-
         blackScreen.color = new Color(c.r, c.g, c.b, 1f);
     }
 
@@ -77,7 +109,6 @@ public class AmmoBoxRespawnUI : MonoBehaviour
     {
         float timer = 0f;
         Color c = blackScreen.color;
-
         while (timer < duration)
         {
             float alpha = Mathf.Lerp(1f, 0f, timer / duration);
@@ -85,7 +116,6 @@ public class AmmoBoxRespawnUI : MonoBehaviour
             timer += Time.deltaTime;
             yield return null;
         }
-
         blackScreen.color = new Color(c.r, c.g, c.b, 0f);
     }
 }

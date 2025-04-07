@@ -14,8 +14,10 @@ TagManager:
   - TriggerZone
   - CancelZone
   - Final
-  - ground
   - Ground
+  - Ground_Level1
+  - Ground_Level2
+  - Ground_Level3
   layers:
   - Default
   - TransparentFX
