@@ -365,7 +365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3932592240411941283, guid: 0212604727b75e040adc009eaae8513d, type: 3}
       propertyPath: mouseSensitivity
-      value: 5000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3932592240411941283, guid: 0212604727b75e040adc009eaae8513d, type: 3}
       propertyPath: crouchTransitionSpeed
@@ -9343,7 +9343,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3932592240411941283, guid: 0212604727b75e040adc009eaae8513d, type: 3}
       propertyPath: mouseSensitivity
-      value: 5000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3932592240411941283, guid: 0212604727b75e040adc009eaae8513d, type: 3}
       propertyPath: crouchTransitionSpeed
@@ -9920,7 +9920,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3932592240411941283, guid: 0212604727b75e040adc009eaae8513d, type: 3}
       propertyPath: mouseSensitivity
-      value: 5000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3932592240411941283, guid: 0212604727b75e040adc009eaae8513d, type: 3}
       propertyPath: crouchTransitionSpeed
@@ -16527,7 +16527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3932592240411941283, guid: 0212604727b75e040adc009eaae8513d, type: 3}
       propertyPath: mouseSensitivity
-      value: 5000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3932592240411941283, guid: 0212604727b75e040adc009eaae8513d, type: 3}
       propertyPath: crouchTransitionSpeed
@@ -22669,7 +22669,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3932592240411941283, guid: 0212604727b75e040adc009eaae8513d, type: 3}
       propertyPath: mouseSensitivity
-      value: 5000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3932592240411941283, guid: 0212604727b75e040adc009eaae8513d, type: 3}
       propertyPath: crouchTransitionSpeed
@@ -34266,7 +34266,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3932592240411941283, guid: 0212604727b75e040adc009eaae8513d, type: 3}
       propertyPath: mouseSensitivity
-      value: 5000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3932592240411941283, guid: 0212604727b75e040adc009eaae8513d, type: 3}
       propertyPath: crouchTransitionSpeed
@@ -40535,7 +40535,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3932592240411941283, guid: 0212604727b75e040adc009eaae8513d, type: 3}
       propertyPath: mouseSensitivity
-      value: 5000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3932592240411941283, guid: 0212604727b75e040adc009eaae8513d, type: 3}
       propertyPath: crouchTransitionSpeed
@@ -41134,7 +41134,7 @@ MonoBehaviour:
   crouchHeight: 1
   standingHeight: 2
   crouchTransitionSpeed: 4.93
-  mouseSensitivity: 5000
+  mouseSensitivity: 100
   cameraTransform: {fileID: 328487400}
   cameraSmoothness: 10
   cameraHolder: {fileID: 1303643356}
@@ -60000,7 +60000,7 @@ MonoBehaviour:
   crouchHeight: 1
   standingHeight: 2
   crouchTransitionSpeed: 4.93
-  mouseSensitivity: 5000
+  mouseSensitivity: 100
   cameraTransform: {fileID: 2072969082}
   cameraSmoothness: 10
   cameraHolder: {fileID: 1185664759}
