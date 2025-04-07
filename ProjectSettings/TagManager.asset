@@ -11,6 +11,11 @@ TagManager:
   - NPC
   - Train
   - Fan
+  - TriggerZone
+  - CancelZone
+  - Final
+  - ground
+  - Ground
   layers:
   - Default
   - TransparentFX

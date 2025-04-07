@@ -12,6 +12,10 @@ public class TrainSwitcher : MonoBehaviour
     public float interactDistance = 3f;
     public GameObject interactUI;
 
+    [Header("火车音效")]
+    public AudioSource trainAudioSource;
+    public AudioClip trainSound;
+
     private bool hasSwitched = false;
 
     void Update()
@@ -53,8 +57,18 @@ public class TrainSwitcher : MonoBehaviour
         if (trainCam != null)
             trainCam.SetActive(true);
 
+        // ✅ 播放火车动画
         if (trainAnimation != null && !trainAnimation.isPlaying)
             trainAnimation.Play();
+
+        // ✅ 播放火车音效
+        if (trainAudioSource != null && trainSound != null)
+        {
+            trainAudioSource.clip = trainSound;
+            trainAudioSource.Play();
+        }
+
+        Debug.Log("🚂 已切换到火车模式并播放动画与音效");
     }
 
     public void SwitchBackToPlayer()
