@@ -45,7 +45,7 @@ public class AmmoBoxRespawnUI : MonoBehaviour
 
         if (currentRespawnPoint != null)
         {
-            // ✅ 强制终止炸弹倒计时（如果正在进行）
+            // ✅ 如果场景中有倒计时 UI，终止它
             BombTimerUI bombUI = FindObjectOfType<BombTimerUI>();
             if (bombUI != null)
             {
@@ -64,11 +64,14 @@ public class AmmoBoxRespawnUI : MonoBehaviour
         if (deathSound != null)
             AudioSource.PlayClipAtPoint(deathSound, transform.position);
 
+        // 黑屏渐入
         yield return StartCoroutine(FadeToBlack(fadeTime));
 
+        // 显示提示文字
         boomText.text = "YOU SACRIFICED!";
         yield return new WaitForSeconds(pauseTime);
 
+        // 传送 AmmoBox 到当前目标重生点
         transform.position = currentRespawnPoint.position;
         Rigidbody rb = GetComponent<Rigidbody>();
         if (rb != null)
@@ -77,12 +80,14 @@ public class AmmoBoxRespawnUI : MonoBehaviour
             rb.angularVelocity = Vector3.zero;
         }
 
-        // 重置士兵系统状态
-        if (PlayerSwitcher.Instance != null)
+        // ✅ 遍历所有士兵系统，恢复所有士兵状态
+        PlayerSwitcher[] allSoldiers = FindObjectsOfType<PlayerSwitcher>();
+        foreach (var soldier in allSoldiers)
         {
-            PlayerSwitcher.Instance.ResetSoldier();
+            soldier.ResetSoldier();
         }
 
+        // 显示 BOOM 文字一段时间
         yield return new WaitForSeconds(boomDuration);
 
         boomText.text = "";

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: "Assets/SIUSIUBOOM\u5C01\u9762.unity"
+    guid: 43c579c5ccee141cba3e586e706ba2a3
+  - enabled: 1
     path: Assets/Scenes/MovementGame.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

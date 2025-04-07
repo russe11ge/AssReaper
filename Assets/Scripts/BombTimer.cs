@@ -5,10 +5,25 @@ using UnityEngine.UI;
 
 public class BombTimerUI : MonoBehaviour
 {
+    [Header("倒计时设置")]
     public float countdownTime = 5f;
     public Transform respawnPoint;
+
+    [Header("UI 元素")]
     public TextMeshProUGUI countdownText;
     public Image blackScreen;
+
+    [Header("摄像机控制")]
+    public GameObject freeLookCamera;
+    public GameObject fixedViewCamera;
+    public bool switchBackToFreeLook = false;
+    public float switchBackDelay = 3f;
+
+    [Header("结局演出")]
+    public AudioSource introSource;       // 播 Intro 的 AudioSource（5 秒）
+    public AudioSource finaleSource;      // 播 Finale 的 AudioSource（2 秒）
+    public ParticleSystem finaleVFX;
+    public TextMeshProUGUI endingText;    // 显示 “You Did It!”
 
     private Coroutine countdownRoutine;
     private bool isCounting = false;
@@ -21,10 +36,15 @@ public class BombTimerUI : MonoBehaviour
             countdownRoutine = StartCoroutine(StartCountdown());
         }
 
-        // 取消倒计时（CancelZone 或 Ground）
+        // 取消倒计时并进入结局流程
         if ((other.CompareTag("CancelZone") || other.CompareTag("Ground_Level1")) && isCounting)
         {
             ForceCancelCountdown();
+
+            if (freeLookCamera != null) freeLookCamera.SetActive(false);
+            if (fixedViewCamera != null) fixedViewCamera.SetActive(true);
+
+            StartCoroutine(PlayFinaleSequence());
         }
     }
 
@@ -62,6 +82,20 @@ public class BombTimerUI : MonoBehaviour
         yield return StartCoroutine(FadeToClear(1f));
     }
 
+    void Respawn()
+    {
+        transform.position = respawnPoint.position;
+
+        Rigidbody rb = GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
+        }
+
+        isCounting = false;
+    }
+
     IEnumerator FadeToBlack(float duration)
     {
         float timer = 0f;
@@ -94,17 +128,35 @@ public class BombTimerUI : MonoBehaviour
         blackScreen.color = new Color(c.r, c.g, c.b, 0f);
     }
 
-    void Respawn()
+    IEnumerator PlayFinaleSequence()
     {
-        transform.position = respawnPoint.position;
-
-        Rigidbody rb = GetComponent<Rigidbody>();
-        if (rb != null)
+        // Step 1: 播放 Intro 音效
+        if (introSource != null)
         {
-            rb.linearVelocity = Vector3.zero;
-            rb.angularVelocity = Vector3.zero;
+            introSource.Play();
+            yield return new WaitForSeconds(introSource.clip.length);
         }
 
-        isCounting = false;
+        // Step 2: 同时播放 Finale 音效 + 粒子
+        if (finaleSource != null)
+            finaleSource.Play();
+
+        if (finaleVFX != null)
+            finaleVFX.Play();
+
+        if (finaleSource != null)
+            yield return new WaitForSeconds(finaleSource.clip.length);
+
+        // Step 3: 黑幕淡入
+        yield return StartCoroutine(FadeToBlack(2f));
+
+        // Step 4: 显示结局文字
+        if (endingText != null)
+        {
+            endingText.text = "You Did It!";
+            endingText.alpha = 1f;
+        }
+
+        Debug.Log("🎉 结局完成");
     }
 }

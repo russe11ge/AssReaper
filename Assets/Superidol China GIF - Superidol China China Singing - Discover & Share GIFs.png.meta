@@ -1,0 +1,2818 @@
+fileFormatVersion: 2
+guid: 3c169368eef6748f68c0c8accd7cb1a5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7470
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb42f565769a48d5855238c7d8cbe56
+      internalID: -1669726536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_1
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 7470
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242ec33ccf2974eac82e9a61463eeb09
+      internalID: 516493342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_2
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 7470
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156532a339a4445539d7e8827925e027
+      internalID: 1399172854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_3
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 7470
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd400719cb2540c6b2f0e9ef350bf67
+      internalID: 494242691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_4
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 7470
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9abb383a9ad49ac8ebd858b657b69b
+      internalID: -2026004447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_5
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 7470
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198870d889d614dadbd1c57c3a3d5642
+      internalID: -627829969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_6
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 7470
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22839f20df87747029a86a1e7b1fb19d
+      internalID: -1552204350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6972
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20fd74d58fd84394968c1d1f9a1094f
+      internalID: 1436593313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_8
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 6972
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b65d8a093b414cc296d10b33b5ae414
+      internalID: -1099600398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_9
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 6972
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2125c4e7ae44eaa8b8a36b6f0ffa17
+      internalID: -188944825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_10
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 6972
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060defb435251476fb66ac7b2d3910c9
+      internalID: 1240874202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_11
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 6972
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3384ff7d65edd4d3e99f27eab71f5bd7
+      internalID: -1893371444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_12
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 6972
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ce423e6526c431ba4d8b1b63eabd1a
+      internalID: -1034464238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_13
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 6972
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473def0157d24429caeb30a3968e121e
+      internalID: 1996937300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6474
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd33a9415043b49dcb428e87171bf073
+      internalID: -587901183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_15
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 6474
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff9739df04dc46a7b00223786bf8f3f
+      internalID: 1335598705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_16
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 6474
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253ee4dc0f94545288ec77464f4fbe90
+      internalID: 1636612390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_17
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 6474
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16657d91e4cbe482e81be074f1f90f94
+      internalID: -1183005270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_18
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 6474
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1678512b57cc3412bb2e12bba4333770
+      internalID: -1186839443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_19
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 6474
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145c2fc69743c498a8388a5b1f6846e7
+      internalID: 1469079079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_20
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 6474
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc185727b4bb490fb422400494f01b0
+      internalID: -498166376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5976
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93464bbd11064a7e9268eb17cc31301
+      internalID: 981177022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_22
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 5976
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fcf5875851c45c5a85aa87e4a2ede0
+      internalID: -1878656291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_23
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 5976
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23e0dd29225c40d49905d80e527ff08
+      internalID: 854401025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_24
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 5976
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18c96c96161b441bbd1492fba7b320f
+      internalID: -2122779245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_25
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 5976
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4300733eb3c474c40a11e9a4a561d0d2
+      internalID: 589148237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_26
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 5976
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2ce84bcb4134266a65b9a722652b73
+      internalID: -2106276218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_27
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 5976
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a78a5ba7b80487fa5bedc1b78da06b
+      internalID: 2050045355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5478
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc3fb55caf4c454f8bcc9042ea31bda
+      internalID: 1474541126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_29
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 5478
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec81062870035480f847da80d72460cb
+      internalID: 1287256183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_30
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 5478
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7141414a9df91430cb530d3c659c7f1f
+      internalID: -915372376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_31
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 5478
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8408d9fcdd949b48cb3954add450e3
+      internalID: 1754575295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_32
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 5478
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85e79d1348997415d995ee92cf33a3be
+      internalID: 803018337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_33
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 5478
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26b65cdb8b794f91ba3c7fe9f479c38
+      internalID: -1535699818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_34
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 5478
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ba73c0f099e4e5ca0e83af5dff9a4e
+      internalID: -1280355258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4980
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fce18c36a6974b62ac5ac9186e1a32c
+      internalID: -572447314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_36
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 4980
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5def9f2590a6b4ebdaddf60ebf45146f
+      internalID: -1647791702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_37
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 4980
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de3a84eac760449aa117151684e888a
+      internalID: 514562423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_38
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 4980
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce3750352bbf4257b7128a84bcfc1c4
+      internalID: -1438989169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_39
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 4980
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1aaf78fe8ab4b2f92fa4abd1a882ab
+      internalID: 1316966499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_40
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 4980
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d34ff2678017426e9c0b25300f2eb5e
+      internalID: 393720726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_41
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 4980
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599c157848ea34b2f9399955d25866d9
+      internalID: -323562725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4482
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41caeba8211084d5797815fa9c14d78c
+      internalID: -1385682244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_43
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 4482
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec1bdf9430b149b29035736da933700
+      internalID: 189174641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_44
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 4482
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23009fdf28fd54ea8b39d781a34c579a
+      internalID: 115517354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_45
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 4482
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4b758db7c3a4cf29ea4f660df234cd
+      internalID: 1766223848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_46
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 4482
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdd43ac94b4941558da34f75a29addb
+      internalID: 1995169119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_47
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 4482
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487a6a349d75c473889652354acf717e
+      internalID: -401677143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_48
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 4482
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e863578b985b64c05b279f9c05d309be
+      internalID: 1530153374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3984
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac1706751fcc44b59328539d306cc87
+      internalID: 1837433882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_50
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 3984
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84eef5bf00cbc406d8927a7dcd8ed736
+      internalID: 493661981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_51
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 3984
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68170407dad0a4931b7746d7258b4862
+      internalID: -355907348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_52
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 3984
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3df27fa91673438a8628d2817a05fff
+      internalID: 52054771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_53
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 3984
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787aeb5b5b6bb41d59b0f4e2ca3cf6cd
+      internalID: 939495563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_54
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 3984
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0373de8dfedc6421593ee9e6db47f3b6
+      internalID: 445826803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_55
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 3984
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939548bcba50c45ea8b9d0bcf76a5162
+      internalID: 756966579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3486
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b65c28fbd6324c9ca3fd75eef68f552
+      internalID: 180207449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_57
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 3486
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa8d700c8fe24ae6814d740b4eccbe6
+      internalID: -1615016660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_58
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 3486
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9fae6724408438a9f7dda29c255e94
+      internalID: -732536608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_59
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 3486
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8308354f86b444eac354ef53baf956
+      internalID: 2087521692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_60
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 3486
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89671cc8917ed47579f3b2d0180ac6ac
+      internalID: -1059911309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_61
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 3486
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35c5f1f84a2f4cfbb08064aced1ec87
+      internalID: -450328488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_62
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 3486
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9178d671767214f51aa80d226887f526
+      internalID: -1350397991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2988
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fba61399a4794fcaba2352add8b4b9c
+      internalID: -92807232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_64
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2988
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f776b8689b849c9ae63661bee8678a
+      internalID: -446724924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_65
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2988
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8278b6d7a20e94c7195667fbdbcc8d6d
+      internalID: 40436242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_66
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2988
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdac7547bfdc940d9aa20b40baf2eb4a
+      internalID: 656807942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_67
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 2988
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2a542f227154f92827ae9b804f0c1e
+      internalID: 890588001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_68
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 2988
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd146248b289c4968a222c71f93b8ead
+      internalID: 747424712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_69
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 2988
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea41c03182ca4f4181af692d81c948e
+      internalID: 1750342897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2490
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897ab229e1aed4987b0f1812e00e3dea
+      internalID: -547964533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_71
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 2490
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d301c845124a4a649c2f661a5e12653
+      internalID: 243179311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_72
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2490
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65dd48243ef4f4e2d821ef959d600b2a
+      internalID: -1653566627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_73
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2490
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80cefcc56f8f4ede9c39c0f79423a70
+      internalID: -1993552563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_74
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 2490
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766386fa5daa84ae9aa2842fe5fcf8a2
+      internalID: 1451899885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_75
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 2490
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1958ddaad71d14ed59d7e1364e31eda4
+      internalID: -151586219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_76
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 2490
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d850989a5c775452c9bfccc05832b0e1
+      internalID: 813756645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1992
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006d95cb530ce4c87a75ce62978f0915
+      internalID: -372878361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_78
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1992
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da389615778a54793907de905db1e590
+      internalID: -1857486748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_79
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1992
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374ea036fd327474fb64fa489eef8ddd
+      internalID: -302429950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_80
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 1992
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90299bd9269740eca9239b9fe4a53cb
+      internalID: -40713448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_81
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 1992
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f904f14b3162944fb93dc86459fc5fad
+      internalID: -17308342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_82
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 1992
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aaedd089932c45d59527a92aa311174
+      internalID: -1960360823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_83
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 1992
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b2f0c74cd9a4e599b2c766f803f888
+      internalID: 1352145244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1494
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd817c043a5e403a8e2586b23d96716
+      internalID: -1264276256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_85
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1494
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447fc7ef933014300870459d6ebc9472
+      internalID: 1860559283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_86
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1494
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5687ee48dd74fcfa38e42560f5e7fc
+      internalID: 1315197941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_87
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 1494
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04989026bd7c4cd590e1cc35d3bf209
+      internalID: -1065571800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_88
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 1494
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7232eb62c4b345e593174d9e05a79ff
+      internalID: -1568632628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_89
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 1494
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b762fa833df5f42d48a25c88c5d90db9
+      internalID: -51750460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_90
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 1494
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d759abdb89c54b8e9a80a1f2cc9fdba
+      internalID: -665063230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 996
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6b1ee738f244983bb3eec69fcd2f3b
+      internalID: -1487227674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_92
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 996
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0ec9d5733ee4534b4569efbf0fbacc
+      internalID: 417580456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_93
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 996
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20595f5461e14a99b4c47f5a4fc0dd7
+      internalID: 640804656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_94
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 996
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64e5449318d344a5bde7ad6b5936641
+      internalID: 1161134944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_95
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 996
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07b6a90f14b44dcbb33666ce7000b87
+      internalID: -1798480751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_96
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 996
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492fafc59559f4f41b33c2153ac7c157
+      internalID: -377014325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_97
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 996
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50a78d733a1c4e0b93e56293bf5bbcf
+      internalID: 343227149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be127fa1c10c84c16b68de0d3c4cde39
+      internalID: -653746898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_99
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942bff76024e740c4be958ce020e6d88
+      internalID: -1400118719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_100
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcffbdbd8e7d84df881249b0a385c135
+      internalID: -1679697669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_101
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e91b8264fbd4337b1854f3fb84a2b2
+      internalID: 1133873781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_102
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa307de410aa4b3387c27d20c5ed6f6
+      internalID: -1286131567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_103
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1bf547004e4d49d0afa4ea2e1a57f40
+      internalID: 1244792008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_104
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0c8562a93bc475396372b6062ecf8d
+      internalID: 2135773278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d291f9fb31b04fbf858f760f8d404f1
+      internalID: -1549657021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_106
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab89d6c3c83f4c06a0383591159d5c2
+      internalID: -56337318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_107
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccc2ec68133249d485fccfca6e06f28
+      internalID: -1010185085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_108
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b1f6fe64eca400fadbc8c14b63a910
+      internalID: 363186881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_109
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da54a484b6cd499b8bc2aea5cfe88d1
+      internalID: -1486552637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_110
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d4cfe23013ed4251b26976746fd0790
+      internalID: -986610411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Superidol China GIF - Superidol China China Singing - Discover & Share
+        GIFs_111
+      rect:
+        serializedVersion: 2
+        x: 2988
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f24d355375d44cab59371b3f998d51
+      internalID: -1203702078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 11e120aa5a49b4727bd84eaa50d300cd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_0: -1669726536
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_1: 516493342
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_10: 1240874202
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_100: -1679697669
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_101: 1133873781
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_102: -1286131567
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_103: 1244792008
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_104: 2135773278
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_105: -1549657021
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_106: -56337318
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_107: -1010185085
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_108: 363186881
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_109: -1486552637
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_11: -1893371444
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_110: -986610411
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_111: -1203702078
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_12: -1034464238
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_13: 1996937300
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_14: -587901183
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_15: 1335598705
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_16: 1636612390
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_17: -1183005270
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_18: -1186839443
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_19: 1469079079
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_2: 1399172854
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_20: -498166376
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_21: 981177022
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_22: -1878656291
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_23: 854401025
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_24: -2122779245
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_25: 589148237
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_26: -2106276218
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_27: 2050045355
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_28: 1474541126
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_29: 1287256183
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_3: 494242691
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_30: -915372376
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_31: 1754575295
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_32: 803018337
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_33: -1535699818
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_34: -1280355258
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_35: -572447314
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_36: -1647791702
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_37: 514562423
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_38: -1438989169
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_39: 1316966499
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_4: -2026004447
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_40: 393720726
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_41: -323562725
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_42: -1385682244
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_43: 189174641
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_44: 115517354
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_45: 1766223848
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_46: 1995169119
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_47: -401677143
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_48: 1530153374
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_49: 1837433882
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_5: -627829969
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_50: 493661981
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_51: -355907348
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_52: 52054771
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_53: 939495563
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_54: 445826803
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_55: 756966579
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_56: 180207449
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_57: -1615016660
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_58: -732536608
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_59: 2087521692
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_6: -1552204350
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_60: -1059911309
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_61: -450328488
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_62: -1350397991
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_63: -92807232
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_64: -446724924
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_65: 40436242
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_66: 656807942
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_67: 890588001
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_68: 747424712
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_69: 1750342897
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_7: 1436593313
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_70: -547964533
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_71: 243179311
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_72: -1653566627
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_73: -1993552563
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_74: 1451899885
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_75: -151586219
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_76: 813756645
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_77: -372878361
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_78: -1857486748
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_79: -302429950
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_8: -1099600398
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_80: -40713448
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_81: -17308342
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_82: -1960360823
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_83: 1352145244
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_84: -1264276256
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_85: 1860559283
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_86: 1315197941
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_87: -1065571800
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_88: -1568632628
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_89: -51750460
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_9: -188944825
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_90: -665063230
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_91: -1487227674
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_92: 417580456
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_93: 640804656
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_94: 1161134944
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_95: -1798480751
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_96: -377014325
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_97: 343227149
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_98: -653746898
+      Superidol China GIF - Superidol China China Singing - Discover & Share GIFs_99: -1400118719
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

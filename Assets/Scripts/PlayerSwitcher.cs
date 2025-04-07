@@ -4,17 +4,22 @@ public class PlayerSwitcher : MonoBehaviour
 {
     public static PlayerSwitcher Instance;
 
+    [Header("控制对象")]
     public GameObject ammoBox;
     public GameObject soldier;
 
+    [Header("控制器")]
     public GameObject ammoBoxController;
     public GameObject soldierController;
 
+    [Header("摄像机")]
     public GameObject ammoBoxCam;
     public GameObject soldierCam;
 
+    [Header("士兵替身")]
     public GameObject soldierClone;
 
+    [Header("交互设置")]
     public float interactDistance = 3f;
     public GameObject interactUI;
 
@@ -48,7 +53,7 @@ public class PlayerSwitcher : MonoBehaviour
         }
     }
 
-    void SwitchToSoldier()
+    public void SwitchToSoldier()
     {
         isControllingSoldier = true;
         PlayerSwitcher.Instance = this;
@@ -56,9 +61,11 @@ public class PlayerSwitcher : MonoBehaviour
         if (interactUI != null)
             interactUI.SetActive(false);
 
+        // 关闭 AmmoBox 控制
         ammoBoxController.SetActive(false);
         ammoBoxCam.SetActive(false);
 
+        // 开启士兵控制
         soldierController.SetActive(true);
         soldierCam.SetActive(true);
         soldierClone.SetActive(false);
@@ -68,10 +75,12 @@ public class PlayerSwitcher : MonoBehaviour
     {
         isControllingSoldier = false;
 
+        // 关闭士兵控制
         soldierController.SetActive(false);
         soldierCam.SetActive(false);
         soldierClone.SetActive(false);
 
+        // 恢复 AmmoBox 控制
         ammoBoxController.SetActive(true);
         ammoBoxCam.SetActive(true);
     }
@@ -80,6 +89,7 @@ public class PlayerSwitcher : MonoBehaviour
     {
         isControllingSoldier = false;
 
+        // 士兵重新可交互（重生时调用）
         if (soldierClone != null)
             soldierClone.SetActive(true);
 
